@@ -1,0 +1,6 @@
+@media screen and (max-width: 560px) {
+  .layout {
+    background: url("../../images/bg.svg") no-repeat;
+    background-size: 100%;
+  }
+}

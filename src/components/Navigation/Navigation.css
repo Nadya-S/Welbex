@@ -1,0 +1,32 @@
+.navigation {
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #e4e5ea;
+}
+
+.navigation__link {
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+.navigation__link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 560px) {
+  .navigation__link {
+    font-size: 12px;
+    margin-right: 0;
+    margin-left: 16px;
+    text-transform: uppercase;
+  }
+  .navigation__link:first-child {
+    margin-left: 0;
+  }
+
+  .navigation__link:last-child {
+    display: none;
+  }
+}

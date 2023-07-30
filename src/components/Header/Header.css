@@ -1,0 +1,111 @@
+.header {
+  height: 73px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 46px;
+}
+
+.header__purple-ball {
+  position: absolute;
+  top: -46px;
+  right: 492px;
+}
+
+.header__purple-light {
+  position: absolute;
+  top: -46px;
+  right: 200px;
+}
+
+.header__logo {
+  margin-top: 11px;
+}
+
+.header__logo-text {
+  width: 165px;
+  height: 24px;
+  font-size: 10px;
+  margin: 7px 27px 0 0;
+  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.header__navigation {
+  display: flex;
+  margin: 15px 138px 0 0;
+}
+
+.header__contacts {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__tel-number {
+  width: 143px;
+  margin: 15px 47px 0 0;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.header__icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.header__icon {
+  margin-right: 30px;
+}
+
+.header__icon:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__navigation {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .header__contacts {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header__logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    height: 55px;
+    margin-top: 0;
+  }
+
+  .header__purple-ball {
+    display: none;
+  }
+
+  .header__purple-light {
+    display: none;
+  }
+
+  .header__navigation {
+    margin: 0;
+    align-items: center;
+  }
+
+  .header__contacts {
+    display: none;
+  }
+}

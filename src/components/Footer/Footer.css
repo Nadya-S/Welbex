@@ -1,0 +1,175 @@
+.footer {
+  height: 315px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 150px;
+}
+
+.footer__about-company {
+  margin-right: 46px;
+}
+
+.footer__title {
+  margin: 55px 0 10px 0;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: #656566;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 52px;
+}
+
+.footer__link {
+  margin-top: 10px;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.footer__navigation {
+  margin-right: 111px;
+}
+
+.footer__two-columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer__tel-number {
+  margin-top: 10px;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer__icons {
+  margin: 20px 0;
+}
+
+.footer__icon {
+  margin-right: 10px;
+}
+
+.footer__icon:last-child {
+  margin-right: 0;
+}
+
+.footer__adress {
+  margin-bottom: 70px;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.15;
+  text-align: right;
+}
+
+.footer__author {
+  margin-bottom: 5px;
+  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+}
+
+.footer__politics {
+  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: right;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .footer {
+    margin: 0 10px;
+  }
+
+  .footer__navigation {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .footer__title {
+    margin: 30px auto 10px 0;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.6px;
+  }
+
+  .footer__about-company {
+    margin-right: 16px;
+  }
+
+  .footer__links {
+    margin-right: 48px;
+  }
+
+  .footer__links:last-child {
+    margin-right: 0;
+  }
+
+  .footer__link {
+    min-width: 100px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .footer {
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 15px 60px 15px;
+    padding-top: 16px;
+  }
+
+  .footer__contacts {
+    align-items: flex-start;
+  }
+
+  .footer__icons {
+    height: 100%;
+    margin: 8px 0;
+  }
+
+  .footer__icon-img {
+    width: 24px;
+  }
+
+  .footer__adress {
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 1.22;
+  }
+
+  .footer__politics {
+    line-height: 1.25;
+  }
+}

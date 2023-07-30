@@ -1,0 +1,226 @@
+.about-company {
+  max-width: 1141px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.about-company__big-red-ball {
+  position: absolute;
+  top: -46px;
+  left: 352px;
+}
+
+.about-company__small-red-ball {
+  position: absolute;
+  bottom: 67px;
+  right: 390px;
+}
+
+.about-company__red-light {
+  position: absolute;
+  top: -100px;
+  left: -252px;
+}
+
+.about-company__title {
+  width: 362px;
+  margin-bottom: 30px;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.about-company__title-span-accent {
+  background-image: linear-gradient(90deg, #fcb045 36.99%, #ff3f78 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.about-company__title-text {
+  width: 275px;
+  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.23;
+}
+
+.about-company__consultation {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 15px;
+}
+
+.about-company__consultation-text {
+  width: 291px;
+  text-align: right;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.23;
+}
+
+.about-company__consultation-span-accent {
+  background-image: linear-gradient(90deg, #fcb045 36.99%, #ff3f78 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+
+.about-company__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 40px 0 61px 0;
+}
+
+.about-company__list-item {
+  text-align: right;
+}
+
+.about-company__list-title {
+  margin-bottom: 6px;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  line-height: 1.22;
+}
+
+.about-company__list-title-mob {
+  display: none;
+}
+
+.about-company__list-description {
+  width: 135px;
+  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.about-company__button {
+  width: 262px;
+  height: 61px;
+  margin-bottom: 69px;
+  background-color: #4077f3;
+  color: #e4e5ea;
+  border: none;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-company {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .about-company {
+    margin-bottom: 120px;
+  }
+
+  .about-company__big-red-ball {
+    display: none;
+  }
+
+  .about-company__title {
+    width: 272px;
+    margin-left: 14px;
+    margin-bottom: 17px;
+    font-size: 36px;
+  }
+
+  .about-company__title-text {
+    margin-left: 14px;
+  }
+
+  .about-company__list-title {
+    display: none;
+  }
+
+  .about-company__list-title-mob {
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.23;
+    letter-spacing: 0.65px;
+    text-align: left;
+    background: url("../../images/Line.svg") no-repeat 0% 50%;
+  }
+
+  .about-company__list-description {
+    display: none;
+  }
+
+  .about-company__button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .about-company {
+    max-width: 280px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding-top: 40px;
+  }
+
+  .about-company__red-light {
+    display: none;
+  }
+
+  .about-company__big-red-ball {
+    display: block;
+    width: 58px;
+    height: 58px;
+    top: 396px;
+    left: 23px;
+    filter: blur(20px);
+  }
+
+  .about-company__small-red-ball {
+    display: none;
+  }
+
+  .about-company__consultation {
+    align-items: flex-start;
+    margin-top: 45px;
+    margin-left: 15px;
+  }
+
+  .about-company__consultation-text {
+    width: 272px;
+    text-align: left;
+  }
+
+  .about-company__consultation-span-accent {
+    text-transform: lowercase;
+    letter-spacing: normal;
+  }
+
+  .about-company__list {
+    gap: 14px 10px;
+    margin: 20px 0 55px 0;
+    width: 250px;
+  }
+}
